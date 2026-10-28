@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: neon-dash-backend
+    env: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
